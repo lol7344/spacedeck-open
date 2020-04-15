@@ -3,7 +3,7 @@
   "contact_email": "support@example.org",
 
   "endpoint": "http://localhost:9666",
-  "invite_code": "top-sekrit",
+  "invite_code": "", //disabled invite code by default
 
   "storage_region": "eu-central-1",
   //"storage_bucket": "sdeck-development",

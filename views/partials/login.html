@@ -65,9 +65,13 @@
           <div class="form-group">
             <input class="input" type="text" id="user-name" v-model="user_forms_name" placeholder="Pick a username">
           </div>
-          <div class="form-group">
+          <!--
+		  Disabled textbox so people don't have to input beta code when registering.
+		  Remember to also set invite_code to an empty string ("") in /config/default.conf!
+		  
+		  <div class="form-group">
             <input class="input" id="invite-code" required type="text" v-model="signup_invite_code" placeholder="Beta Invite Code">
-          </div>
+          </div>-->
         </div>
 
         <!--div style="margin-top: -7px; margin-bottom: 7px;"><small>By signing up you agree to our <a href="/terms" target="_blank">TOS</a> and <a href="/privacy" target="_blank">Privacy Policy.</a></small><br/>
