@@ -735,7 +735,7 @@ function setup_whiteboard_directives() {
       this.mouse_state = "idle";
       $scope.mouse_state = this.mouse_state;
       this.lasso = null;
-      $scope.active_tool = "pointer";
+      //$scope.active_tool = "pointer"; disabled to keep the same tool (eg. "Scribble") after drawing a single line.
       $scope.end_transaction();
       $scope.show_toolbar_props();
 
